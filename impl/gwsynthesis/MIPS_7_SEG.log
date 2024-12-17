@@ -1,0 +1,53 @@
+GowinSynthesis start
+Running parser ...
+Analyzing Verilog file 'C:\Users\Juan\Documents\Documentos_para_residencia\MIPS ENSAMBLADOR\MIPS ENSAMBLADOR\MIPS_7_SEG\src\MIPS7.sv'
+Undeclared symbol 'led', assumed default net type 'wire'("C:\Users\Juan\Documents\Documentos_para_residencia\MIPS ENSAMBLADOR\MIPS ENSAMBLADOR\MIPS_7_SEG\src\MIPS7.sv":292)
+Compiling module 'top'("C:\Users\Juan\Documents\Documentos_para_residencia\MIPS ENSAMBLADOR\MIPS ENSAMBLADOR\MIPS_7_SEG\src\MIPS7.sv":1)
+Compiling module 'mips'("C:\Users\Juan\Documents\Documentos_para_residencia\MIPS ENSAMBLADOR\MIPS ENSAMBLADOR\MIPS_7_SEG\src\MIPS7.sv":30)
+Compiling module 'controller'("C:\Users\Juan\Documents\Documentos_para_residencia\MIPS ENSAMBLADOR\MIPS ENSAMBLADOR\MIPS_7_SEG\src\MIPS7.sv":82)
+Compiling module 'maindec'("C:\Users\Juan\Documents\Documentos_para_residencia\MIPS ENSAMBLADOR\MIPS ENSAMBLADOR\MIPS_7_SEG\src\MIPS7.sv":96)
+Compiling module 'aludec'("C:\Users\Juan\Documents\Documentos_para_residencia\MIPS ENSAMBLADOR\MIPS ENSAMBLADOR\MIPS_7_SEG\src\MIPS7.sv":117)
+Compiling module 'datapath'("C:\Users\Juan\Documents\Documentos_para_residencia\MIPS ENSAMBLADOR\MIPS ENSAMBLADOR\MIPS_7_SEG\src\MIPS7.sv":134)
+Compiling module 'flopr(WIDTH=32)'("C:\Users\Juan\Documents\Documentos_para_residencia\MIPS ENSAMBLADOR\MIPS ENSAMBLADOR\MIPS_7_SEG\src\MIPS7.sv":167)
+Compiling module 'adder'("C:\Users\Juan\Documents\Documentos_para_residencia\MIPS ENSAMBLADOR\MIPS ENSAMBLADOR\MIPS_7_SEG\src\MIPS7.sv":176)
+Compiling module 'sl2'("C:\Users\Juan\Documents\Documentos_para_residencia\MIPS ENSAMBLADOR\MIPS ENSAMBLADOR\MIPS_7_SEG\src\MIPS7.sv":181)
+Compiling module 'mux2(WIDTH=32)'("C:\Users\Juan\Documents\Documentos_para_residencia\MIPS ENSAMBLADOR\MIPS ENSAMBLADOR\MIPS_7_SEG\src\MIPS7.sv":192)
+Compiling module 'regfile'("C:\Users\Juan\Documents\Documentos_para_residencia\MIPS ENSAMBLADOR\MIPS ENSAMBLADOR\MIPS_7_SEG\src\MIPS7.sv":199)
+Extracting RAM for identifier 'rf'("C:\Users\Juan\Documents\Documentos_para_residencia\MIPS ENSAMBLADOR\MIPS ENSAMBLADOR\MIPS_7_SEG\src\MIPS7.sv":204)
+Compiling module 'mux2(WIDTH=5)'("C:\Users\Juan\Documents\Documentos_para_residencia\MIPS ENSAMBLADOR\MIPS ENSAMBLADOR\MIPS_7_SEG\src\MIPS7.sv":192)
+Compiling module 'signext'("C:\Users\Juan\Documents\Documentos_para_residencia\MIPS ENSAMBLADOR\MIPS ENSAMBLADOR\MIPS_7_SEG\src\MIPS7.sv":187)
+Compiling module 'alu'("C:\Users\Juan\Documents\Documentos_para_residencia\MIPS ENSAMBLADOR\MIPS ENSAMBLADOR\MIPS_7_SEG\src\MIPS7.sv":213)
+Compiling module 'imem'("C:\Users\Juan\Documents\Documentos_para_residencia\MIPS ENSAMBLADOR\MIPS ENSAMBLADOR\MIPS_7_SEG\src\MIPS7.sv":75)
+Extracting RAM for identifier 'RAM'("C:\Users\Juan\Documents\Documentos_para_residencia\MIPS ENSAMBLADOR\MIPS ENSAMBLADOR\MIPS_7_SEG\src\MIPS7.sv":76)
+Compiling module 'dmem'("C:\Users\Juan\Documents\Documentos_para_residencia\MIPS ENSAMBLADOR\MIPS ENSAMBLADOR\MIPS_7_SEG\src\MIPS7.sv":50)
+Extracting RAM for identifier 'RAM'("C:\Users\Juan\Documents\Documentos_para_residencia\MIPS ENSAMBLADOR\MIPS ENSAMBLADOR\MIPS_7_SEG\src\MIPS7.sv":56)
+Compiling module 'display'("C:\Users\Juan\Documents\Documentos_para_residencia\MIPS ENSAMBLADOR\MIPS ENSAMBLADOR\MIPS_7_SEG\src\MIPS7.sv":232)
+WARN  (EX3791) : Expression size 26 truncated to fit in target size 25("C:\Users\Juan\Documents\Documentos_para_residencia\MIPS ENSAMBLADOR\MIPS ENSAMBLADOR\MIPS_7_SEG\src\MIPS7.sv":253)
+Compiling module 'decod'("C:\Users\Juan\Documents\Documentos_para_residencia\MIPS ENSAMBLADOR\MIPS ENSAMBLADOR\MIPS_7_SEG\src\MIPS7.sv":297)
+WARN  (EX3791) : Expression size 6 truncated to fit in target size 4("C:\Users\Juan\Documents\Documentos_para_residencia\MIPS ENSAMBLADOR\MIPS ENSAMBLADOR\MIPS_7_SEG\src\MIPS7.sv":289)
+NOTE  (EX0101) : Current top module is "top"
+[5%] Running netlist conversion ...
+Running device independent optimization ...
+[10%] Optimizing Phase 0 completed
+[15%] Optimizing Phase 1 completed
+[25%] Optimizing Phase 2 completed
+Running inference ...
+[30%] Inferring Phase 0 completed
+[40%] Inferring Phase 1 completed
+[50%] Inferring Phase 2 completed
+[55%] Inferring Phase 3 completed
+Running technical mapping ...
+[60%] Tech-Mapping Phase 0 completed
+[65%] Tech-Mapping Phase 1 completed
+[75%] Tech-Mapping Phase 2 completed
+[80%] Tech-Mapping Phase 3 completed
+[90%] Tech-Mapping Phase 4 completed
+WARN  (NL0002) : The module "maindec" instantiated to "md" is swept in optimizing("C:\Users\Juan\Documents\Documentos_para_residencia\MIPS ENSAMBLADOR\MIPS ENSAMBLADOR\MIPS_7_SEG\src\MIPS7.sv":90)
+WARN  (NL0002) : The module "sl2" instantiated to "immsh" is swept in optimizing("C:\Users\Juan\Documents\Documentos_para_residencia\MIPS ENSAMBLADOR\MIPS ENSAMBLADOR\MIPS_7_SEG\src\MIPS7.sv":150)
+WARN  (NL0002) : The module "mux2" instantiated to "pcbrmux" is swept in optimizing("C:\Users\Juan\Documents\Documentos_para_residencia\MIPS ENSAMBLADOR\MIPS ENSAMBLADOR\MIPS_7_SEG\src\MIPS7.sv":152)
+WARN  (NL0002) : The module "mux2" instantiated to "resmux" is swept in optimizing("C:\Users\Juan\Documents\Documentos_para_residencia\MIPS ENSAMBLADOR\MIPS ENSAMBLADOR\MIPS_7_SEG\src\MIPS7.sv":158)
+WARN  (NL0002) : The module "signext" instantiated to "se" is swept in optimizing("C:\Users\Juan\Documents\Documentos_para_residencia\MIPS ENSAMBLADOR\MIPS ENSAMBLADOR\MIPS_7_SEG\src\MIPS7.sv":159)
+WARN  (NL0002) : The module "mux2" instantiated to "srcbmux" is swept in optimizing("C:\Users\Juan\Documents\Documentos_para_residencia\MIPS ENSAMBLADOR\MIPS ENSAMBLADOR\MIPS_7_SEG\src\MIPS7.sv":162)
+[95%] Generate netlist file "C:\Users\Juan\Documents\Documentos_para_residencia\MIPS ENSAMBLADOR\MIPS ENSAMBLADOR\MIPS_7_SEG\impl\gwsynthesis\MIPS_7_SEG.vg" completed
+[100%] Generate report file "C:\Users\Juan\Documents\Documentos_para_residencia\MIPS ENSAMBLADOR\MIPS ENSAMBLADOR\MIPS_7_SEG\impl\gwsynthesis\MIPS_7_SEG_syn.rpt.html" completed
+GowinSynthesis finish

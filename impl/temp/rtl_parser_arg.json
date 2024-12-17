@@ -1,0 +1,17 @@
+{
+ "Device" : "GW1NR-9C",
+ "Files" : [
+  {
+   "Path" : "C:/Users/Juan/Documents/DocumentosRresidencia/MIPS ENSAMBLADOR/MIPS ENSAMBLADOR/MIPS_7_SEG/src/MIPS7.sv",
+   "Type" : "verilog"
+  }
+ ],
+ "IncludePath" : [
+
+ ],
+ "LoopLimit" : 2000,
+ "ResultFile" : "C:/Users/Juan/Documents/DocumentosRresidencia/MIPS ENSAMBLADOR/MIPS ENSAMBLADOR/MIPS_7_SEG/impl/temp/rtl_parser.result",
+ "Top" : "top",
+ "VerilogStd" : "sysv",
+ "VhdlStd" : "vhdl_93"
+}

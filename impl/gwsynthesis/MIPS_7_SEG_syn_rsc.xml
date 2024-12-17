@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Module name="top" T_Register="47(0)" T_Alu="44(0)" T_Lut="274(0)" T_Ssram="48(0)">
+    <SubModule name="mips" T_Register="6(0)" T_Alu="38(0)" T_Lut="149(0)" T_Ssram="32(0)">
+        <SubModule name="c" T_Lut="2(0)">
+            <SubModule name="ad" Lut="2" T_Lut="2(2)"/>
+        </SubModule>
+        <SubModule name="dp" T_Register="6(0)" T_Alu="38(0)" T_Lut="147(0)" T_Ssram="32(0)">
+            <SubModule name="pcreg" Register="6" T_Register="6(6)"/>
+            <SubModule name="pcadd1" Lut="7" T_Lut="7(7)"/>
+            <SubModule name="pcadd2" Alu="6" T_Alu="6(6)"/>
+            <SubModule name="pcmux" Lut="26" T_Lut="26(26)"/>
+            <SubModule name="rf" Lut="44" Ssram="32" T_Lut="44(44)" T_Ssram="32(32)"/>
+            <SubModule name="wrmux" Lut="10" T_Lut="10(10)"/>
+            <SubModule name="alu" Alu="32" Lut="60" T_Alu="32(32)" T_Lut="60(60)"/>
+        </SubModule>
+    </SubModule>
+    <SubModule name="imem" Lut="17" T_Lut="17(17)"/>
+    <SubModule name="dmem" Lut="37" Ssram="16" T_Lut="37(37)" T_Ssram="16(16)"/>
+    <SubModule name="disp_inst" Register="41" Alu="6" Lut="67" T_Register="41(41)" T_Alu="6(6)" T_Lut="71(67)">
+        <SubModule name="de" Lut="4" T_Lut="4(4)"/>
+    </SubModule>
+</Module>

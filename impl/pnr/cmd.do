@@ -1,0 +1,14 @@
+-d C:\Users\Juan\Documents\Documentos_para_residencia\MIPS ENSAMBLADOR\MIPS ENSAMBLADOR\MIPS_7_SEG\impl\gwsynthesis\MIPS_7_SEG.vg
+-p GW1NR-9C-QFN88P-6
+-pn GW1NR-UV9QN88PC6/I5
+-cst C:\Users\Juan\Documents\Documentos_para_residencia\MIPS ENSAMBLADOR\MIPS ENSAMBLADOR\MIPS_7_SEG\src\MIPS_7_SEG.cst
+-cfg C:\Users\Juan\Documents\Documentos_para_residencia\MIPS ENSAMBLADOR\MIPS ENSAMBLADOR\MIPS_7_SEG\impl\pnr\device.cfg
+-bit
+-tr
+-ph
+-timing
+-cst_error
+-convert_sdp32_36_to_sdp16_18
+-correct_hold 1
+-route_maxfan 23
+-global_freq 50.000

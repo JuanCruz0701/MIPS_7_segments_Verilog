@@ -1,0 +1,188 @@
+[
+ {
+  "InstFile" : "C:/Users/Juan/Documents/DocumentosRresidencia/MIPS ENSAMBLADOR/MIPS ENSAMBLADOR/MIPS_7_SEG/src/MIPS7.sv",
+  "InstLine" : 1,
+  "InstName" : "top",
+  "ModuleFile" : "C:/Users/Juan/Documents/DocumentosRresidencia/MIPS ENSAMBLADOR/MIPS ENSAMBLADOR/MIPS_7_SEG/src/MIPS7.sv",
+  "ModuleLine" : 1,
+  "ModuleName" : "top",
+  "SubInsts" : [
+   {
+    "InstFile" : "C:/Users/Juan/Documents/DocumentosRresidencia/MIPS ENSAMBLADOR/MIPS ENSAMBLADOR/MIPS_7_SEG/src/MIPS7.sv",
+    "InstLine" : 12,
+    "InstName" : "mips",
+    "ModuleFile" : "C:/Users/Juan/Documents/DocumentosRresidencia/MIPS ENSAMBLADOR/MIPS ENSAMBLADOR/MIPS_7_SEG/src/MIPS7.sv",
+    "ModuleLine" : 30,
+    "ModuleName" : "mips",
+    "SubInsts" : [
+     {
+      "InstFile" : "C:/Users/Juan/Documents/DocumentosRresidencia/MIPS ENSAMBLADOR/MIPS ENSAMBLADOR/MIPS_7_SEG/src/MIPS7.sv",
+      "InstLine" : 40,
+      "InstName" : "c",
+      "ModuleFile" : "C:/Users/Juan/Documents/DocumentosRresidencia/MIPS ENSAMBLADOR/MIPS ENSAMBLADOR/MIPS_7_SEG/src/MIPS7.sv",
+      "ModuleLine" : 82,
+      "ModuleName" : "controller",
+      "SubInsts" : [
+       {
+        "InstFile" : "C:/Users/Juan/Documents/DocumentosRresidencia/MIPS ENSAMBLADOR/MIPS ENSAMBLADOR/MIPS_7_SEG/src/MIPS7.sv",
+        "InstLine" : 90,
+        "InstName" : "md",
+        "ModuleFile" : "C:/Users/Juan/Documents/DocumentosRresidencia/MIPS ENSAMBLADOR/MIPS ENSAMBLADOR/MIPS_7_SEG/src/MIPS7.sv",
+        "ModuleLine" : 96,
+        "ModuleName" : "maindec"
+       },
+       {
+        "InstFile" : "C:/Users/Juan/Documents/DocumentosRresidencia/MIPS ENSAMBLADOR/MIPS ENSAMBLADOR/MIPS_7_SEG/src/MIPS7.sv",
+        "InstLine" : 91,
+        "InstName" : "ad",
+        "ModuleFile" : "C:/Users/Juan/Documents/DocumentosRresidencia/MIPS ENSAMBLADOR/MIPS ENSAMBLADOR/MIPS_7_SEG/src/MIPS7.sv",
+        "ModuleLine" : 117,
+        "ModuleName" : "aludec"
+       }
+      ]
+     },
+     {
+      "InstFile" : "C:/Users/Juan/Documents/DocumentosRresidencia/MIPS ENSAMBLADOR/MIPS ENSAMBLADOR/MIPS_7_SEG/src/MIPS7.sv",
+      "InstLine" : 43,
+      "InstName" : "dp",
+      "ModuleFile" : "C:/Users/Juan/Documents/DocumentosRresidencia/MIPS ENSAMBLADOR/MIPS ENSAMBLADOR/MIPS_7_SEG/src/MIPS7.sv",
+      "ModuleLine" : 134,
+      "ModuleName" : "datapath",
+      "SubInsts" : [
+       {
+        "InstFile" : "C:/Users/Juan/Documents/DocumentosRresidencia/MIPS ENSAMBLADOR/MIPS ENSAMBLADOR/MIPS_7_SEG/src/MIPS7.sv",
+        "InstLine" : 148,
+        "InstName" : "pcreg",
+        "ModuleFile" : "C:/Users/Juan/Documents/DocumentosRresidencia/MIPS ENSAMBLADOR/MIPS ENSAMBLADOR/MIPS_7_SEG/src/MIPS7.sv",
+        "ModuleLine" : 167,
+        "ModuleName" : "flopr"
+       },
+       {
+        "InstFile" : "C:/Users/Juan/Documents/DocumentosRresidencia/MIPS ENSAMBLADOR/MIPS ENSAMBLADOR/MIPS_7_SEG/src/MIPS7.sv",
+        "InstLine" : 149,
+        "InstName" : "pcadd1",
+        "ModuleFile" : "C:/Users/Juan/Documents/DocumentosRresidencia/MIPS ENSAMBLADOR/MIPS ENSAMBLADOR/MIPS_7_SEG/src/MIPS7.sv",
+        "ModuleLine" : 176,
+        "ModuleName" : "adder"
+       },
+       {
+        "InstFile" : "C:/Users/Juan/Documents/DocumentosRresidencia/MIPS ENSAMBLADOR/MIPS ENSAMBLADOR/MIPS_7_SEG/src/MIPS7.sv",
+        "InstLine" : 150,
+        "InstName" : "immsh",
+        "ModuleFile" : "C:/Users/Juan/Documents/DocumentosRresidencia/MIPS ENSAMBLADOR/MIPS ENSAMBLADOR/MIPS_7_SEG/src/MIPS7.sv",
+        "ModuleLine" : 181,
+        "ModuleName" : "sl2"
+       },
+       {
+        "InstFile" : "C:/Users/Juan/Documents/DocumentosRresidencia/MIPS ENSAMBLADOR/MIPS ENSAMBLADOR/MIPS_7_SEG/src/MIPS7.sv",
+        "InstLine" : 151,
+        "InstName" : "pcadd2",
+        "ModuleFile" : "C:/Users/Juan/Documents/DocumentosRresidencia/MIPS ENSAMBLADOR/MIPS ENSAMBLADOR/MIPS_7_SEG/src/MIPS7.sv",
+        "ModuleLine" : 176,
+        "ModuleName" : "adder"
+       },
+       {
+        "InstFile" : "C:/Users/Juan/Documents/DocumentosRresidencia/MIPS ENSAMBLADOR/MIPS ENSAMBLADOR/MIPS_7_SEG/src/MIPS7.sv",
+        "InstLine" : 152,
+        "InstName" : "pcbrmux",
+        "ModuleFile" : "C:/Users/Juan/Documents/DocumentosRresidencia/MIPS ENSAMBLADOR/MIPS ENSAMBLADOR/MIPS_7_SEG/src/MIPS7.sv",
+        "ModuleLine" : 192,
+        "ModuleName" : "mux2"
+       },
+       {
+        "InstFile" : "C:/Users/Juan/Documents/DocumentosRresidencia/MIPS ENSAMBLADOR/MIPS ENSAMBLADOR/MIPS_7_SEG/src/MIPS7.sv",
+        "InstLine" : 153,
+        "InstName" : "pcmux",
+        "ModuleFile" : "C:/Users/Juan/Documents/DocumentosRresidencia/MIPS ENSAMBLADOR/MIPS ENSAMBLADOR/MIPS_7_SEG/src/MIPS7.sv",
+        "ModuleLine" : 192,
+        "ModuleName" : "mux2"
+       },
+       {
+        "InstFile" : "C:/Users/Juan/Documents/DocumentosRresidencia/MIPS ENSAMBLADOR/MIPS ENSAMBLADOR/MIPS_7_SEG/src/MIPS7.sv",
+        "InstLine" : 156,
+        "InstName" : "rf",
+        "ModuleFile" : "C:/Users/Juan/Documents/DocumentosRresidencia/MIPS ENSAMBLADOR/MIPS ENSAMBLADOR/MIPS_7_SEG/src/MIPS7.sv",
+        "ModuleLine" : 199,
+        "ModuleName" : "regfile"
+       },
+       {
+        "InstFile" : "C:/Users/Juan/Documents/DocumentosRresidencia/MIPS ENSAMBLADOR/MIPS ENSAMBLADOR/MIPS_7_SEG/src/MIPS7.sv",
+        "InstLine" : 157,
+        "InstName" : "wrmux",
+        "ModuleFile" : "C:/Users/Juan/Documents/DocumentosRresidencia/MIPS ENSAMBLADOR/MIPS ENSAMBLADOR/MIPS_7_SEG/src/MIPS7.sv",
+        "ModuleLine" : 192,
+        "ModuleName" : "mux2"
+       },
+       {
+        "InstFile" : "C:/Users/Juan/Documents/DocumentosRresidencia/MIPS ENSAMBLADOR/MIPS ENSAMBLADOR/MIPS_7_SEG/src/MIPS7.sv",
+        "InstLine" : 158,
+        "InstName" : "resmux",
+        "ModuleFile" : "C:/Users/Juan/Documents/DocumentosRresidencia/MIPS ENSAMBLADOR/MIPS ENSAMBLADOR/MIPS_7_SEG/src/MIPS7.sv",
+        "ModuleLine" : 192,
+        "ModuleName" : "mux2"
+       },
+       {
+        "InstFile" : "C:/Users/Juan/Documents/DocumentosRresidencia/MIPS ENSAMBLADOR/MIPS ENSAMBLADOR/MIPS_7_SEG/src/MIPS7.sv",
+        "InstLine" : 159,
+        "InstName" : "se",
+        "ModuleFile" : "C:/Users/Juan/Documents/DocumentosRresidencia/MIPS ENSAMBLADOR/MIPS ENSAMBLADOR/MIPS_7_SEG/src/MIPS7.sv",
+        "ModuleLine" : 187,
+        "ModuleName" : "signext"
+       },
+       {
+        "InstFile" : "C:/Users/Juan/Documents/DocumentosRresidencia/MIPS ENSAMBLADOR/MIPS ENSAMBLADOR/MIPS_7_SEG/src/MIPS7.sv",
+        "InstLine" : 162,
+        "InstName" : "srcbmux",
+        "ModuleFile" : "C:/Users/Juan/Documents/DocumentosRresidencia/MIPS ENSAMBLADOR/MIPS ENSAMBLADOR/MIPS_7_SEG/src/MIPS7.sv",
+        "ModuleLine" : 192,
+        "ModuleName" : "mux2"
+       },
+       {
+        "InstFile" : "C:/Users/Juan/Documents/DocumentosRresidencia/MIPS ENSAMBLADOR/MIPS ENSAMBLADOR/MIPS_7_SEG/src/MIPS7.sv",
+        "InstLine" : 163,
+        "InstName" : "alu",
+        "ModuleFile" : "C:/Users/Juan/Documents/DocumentosRresidencia/MIPS ENSAMBLADOR/MIPS ENSAMBLADOR/MIPS_7_SEG/src/MIPS7.sv",
+        "ModuleLine" : 213,
+        "ModuleName" : "alu"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "InstFile" : "C:/Users/Juan/Documents/DocumentosRresidencia/MIPS ENSAMBLADOR/MIPS ENSAMBLADOR/MIPS_7_SEG/src/MIPS7.sv",
+    "InstLine" : 13,
+    "InstName" : "imem",
+    "ModuleFile" : "C:/Users/Juan/Documents/DocumentosRresidencia/MIPS ENSAMBLADOR/MIPS ENSAMBLADOR/MIPS_7_SEG/src/MIPS7.sv",
+    "ModuleLine" : 75,
+    "ModuleName" : "imem"
+   },
+   {
+    "InstFile" : "C:/Users/Juan/Documents/DocumentosRresidencia/MIPS ENSAMBLADOR/MIPS ENSAMBLADOR/MIPS_7_SEG/src/MIPS7.sv",
+    "InstLine" : 14,
+    "InstName" : "dmem",
+    "ModuleFile" : "C:/Users/Juan/Documents/DocumentosRresidencia/MIPS ENSAMBLADOR/MIPS ENSAMBLADOR/MIPS_7_SEG/src/MIPS7.sv",
+    "ModuleLine" : 50,
+    "ModuleName" : "dmem"
+   },
+   {
+    "InstFile" : "C:/Users/Juan/Documents/DocumentosRresidencia/MIPS ENSAMBLADOR/MIPS ENSAMBLADOR/MIPS_7_SEG/src/MIPS7.sv",
+    "InstLine" : 17,
+    "InstName" : "disp_inst",
+    "ModuleFile" : "C:/Users/Juan/Documents/DocumentosRresidencia/MIPS ENSAMBLADOR/MIPS ENSAMBLADOR/MIPS_7_SEG/src/MIPS7.sv",
+    "ModuleLine" : 232,
+    "ModuleName" : "display",
+    "SubInsts" : [
+     {
+      "InstFile" : "C:/Users/Juan/Documents/DocumentosRresidencia/MIPS ENSAMBLADOR/MIPS ENSAMBLADOR/MIPS_7_SEG/src/MIPS7.sv",
+      "InstLine" : 286,
+      "InstName" : "de",
+      "ModuleFile" : "C:/Users/Juan/Documents/DocumentosRresidencia/MIPS ENSAMBLADOR/MIPS ENSAMBLADOR/MIPS_7_SEG/src/MIPS7.sv",
+      "ModuleLine" : 297,
+      "ModuleName" : "decod"
+     }
+    ]
+   }
+  ]
+ }
+]
